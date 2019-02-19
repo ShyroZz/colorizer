@@ -1,0 +1,15 @@
+{
+  "name": "colorizer",
+  "version": "1.0.0",
+  "description": "ansi colorizer written in TypeScript",
+  "keywords": [
+    "color",
+    "useful",
+    "shell",
+    "js"
+  ],
+  "main": "./dist/index.js",
+  "repository": "https://github.com/ShyroZz/colorizer",
+  "author": "Antonin <antonin.heb@gmail.com>",
+  "license": "MIT"
+}
