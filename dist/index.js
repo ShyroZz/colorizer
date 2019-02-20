@@ -1,2 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var colorizer_1 = require("./colorizer");
+var c = new colorizer_1.default();
+console.log(c.render('Sample', colorizer_1.color.red));
+console.log(c.render('SampleBold', colorizer_1.color.greenLight, true));
+console.log(c.render('SampleBackground', colorizer_1.color.white, false, colorizer_1.color.blueLightBackground));
+console.log(c.code(colorizer_1.color.yellow));
+console.log('.');
+console.log('..');
+console.log('...');
+console.log('....');
+console.log(c.code(colorizer_1.utils.off));

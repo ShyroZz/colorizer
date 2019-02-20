@@ -1,7 +1,7 @@
 {
   "name": "colorizer",
   "version": "1.0.0",
-  "description": "ansi colorizer written in TypeScript",
+  "description": "Ansi colorizer written in TypeScript",
   "keywords": [
     "color",
     "useful",
@@ -9,7 +9,18 @@
     "js"
   ],
   "main": "./dist/index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.ts"
+  },
   "repository": "https://github.com/ShyroZz/colorizer",
   "author": "Antonin <antonin.heb@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
 }
